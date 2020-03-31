@@ -18,6 +18,7 @@ context = {
     'page_html': page_object.page_html()
 }
 return render(request, 'issues.html', context)
+```
 
 ### 2. 前端
 ```html
@@ -30,5 +31,6 @@ return render(request, 'issues.html', context)
         {{ page_html|safe }}
     </ul>
 </nav>
+```
 
 
